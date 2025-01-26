@@ -3,3 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 820px;
+    margin: 0 auto;
+    padding: 5px 15px;
+
+}
+.title{
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.task-body{
+    padding: 40px 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#task-filed{
+    width: 320px;
+    padding: 8px 10px;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+#btn-update{
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px 18px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn-update:hover{
+    background-color: aqua;
+}
+
+.task-container{
+
+    padding: 25px 35px;
+}
+
+.task-container li{
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.task-container li::marker{
+    color: orange;
+}
+
+.footer-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px 5px;
+    background-color: aqua;
+    border-radius: 5px;
+}
